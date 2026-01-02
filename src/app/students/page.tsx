@@ -2,7 +2,7 @@
 
 import React, { useEffect, useState } from 'react';
 import Header from '@/components/Header';
-import { Search, Filter, MoreHorizontal, Plus, Trash2 } from 'lucide-react';
+import { Search, Filter, Plus, Trash2 } from 'lucide-react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
@@ -65,7 +65,6 @@ export default function StudentsPage() {
     );
 
     async function handleAddStudent() {
-        // ... (existing add logic)
         if (!newStudent.name) return;
 
         try {
@@ -85,7 +84,6 @@ export default function StudentsPage() {
     }
 
     async function handleDelete(id: string) {
-        // ... (existing delete logic)
         if (!confirm("Are you sure you want to delete this student?")) return;
         try {
             const res = await fetch(`/api/students/${id}`, { method: 'DELETE' });
@@ -128,7 +126,7 @@ export default function StudentsPage() {
                                 <DialogHeader>
                                     <DialogTitle>Add New Student</DialogTitle>
                                     <DialogDescription>
-                                        Enter the student's details here. Click save when you're done.
+                                        Enter the student&apos;s details here. Click save when you&apos;re done.
                                     </DialogDescription>
                                 </DialogHeader>
                                 <div className="grid gap-4 py-4">

@@ -29,7 +29,7 @@ export async function POST(request: Request) {
             { message: 'User registered successfully', user: { name, email } },
             { status: 201 }
         );
-    } catch (_error) {
+    } catch {
         return NextResponse.json(
             { message: 'Internal server error' },
             { status: 500 }

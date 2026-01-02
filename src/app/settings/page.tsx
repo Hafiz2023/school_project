@@ -6,7 +6,7 @@ import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle, CardFooter } from '@/components/ui/card';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { User, Lock, Bell, Globe, Palette, Save } from 'lucide-react';
+import { User, Globe, Save } from 'lucide-react';
 
 export default function SettingsPage() {
     const [loading, setLoading] = useState(false);

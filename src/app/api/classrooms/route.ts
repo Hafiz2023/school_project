@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server';
 
-let classrooms = [
+const classrooms = [
     { id: 'CLS-001', name: 'Class 10-A', subject: 'Mathematics', teacher: 'Mr. Wilson', students: 32, time: '09:00 AM', room: '301', color: 'border-l-4 border-l-indigo-500' },
     { id: 'CLS-002', name: 'Class 9-B', subject: 'Physics', teacher: 'Mrs. Davis', students: 28, time: '10:45 AM', room: '204', color: 'border-l-4 border-l-pink-500' },
     { id: 'CLS-003', name: 'Class 11-Sci', subject: 'Chemistry', teacher: 'Dr. Brown', students: 30, time: '01:00 PM', room: 'Lab 1', color: 'border-l-4 border-l-blue-500' },

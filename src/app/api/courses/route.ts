@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server';
 
-let courses = [
+const courses = [
     { id: 'CRS-001', title: 'Advanced Mathematics', category: 'Mathematics', instructor: 'Dr. Sarah Wilson', progress: 75, lessons: 24, hours: 48, level: 'Advanced', color: 'bg-indigo-600' },
     { id: 'CRS-002', title: 'Physics Fundamentals', category: 'Science', instructor: 'Prof. James Black', progress: 30, lessons: 18, hours: 36, level: 'Intermediate', color: 'bg-blue-600' },
     { id: 'CRS-003', title: 'World History', category: 'Arts', instructor: 'Ms. Emily Stone', progress: 90, lessons: 32, hours: 64, level: 'Beginner', color: 'bg-amber-600' },
