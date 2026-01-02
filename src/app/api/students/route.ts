@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server';
 
 // Mock database
-let students = [
+const students = [
     { id: 'ST-2024-001', name: 'Alina Khan', grade: '10th', parent: 'Tariq Khan', phone: '+92 300 1234567', status: 'Active' },
     { id: 'ST-2024-002', name: 'Bilal Ahmed', grade: '9th', parent: 'Nasir Ahmed', phone: '+92 321 7654321', status: 'Active' },
     { id: 'ST-2024-003', name: 'Zara Malik', grade: '12th', parent: 'Asif Malik', phone: '+92 333 9876543', status: 'Probation' },

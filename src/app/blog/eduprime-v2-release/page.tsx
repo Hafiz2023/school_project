@@ -13,8 +13,7 @@ import {
     Facebook,
     Twitter,
     Linkedin,
-    Bookmark,
-    MessageCircle,
+
     Heart,
     Rocket,
     CheckCircle2
@@ -53,7 +52,7 @@ export default function BlogPost() {
                     <div className="flex items-center justify-between border-y border-slate-100 py-6">
                         <div className="flex items-center gap-4">
                             <div className="w-12 h-12 rounded-full overflow-hidden border-2 border-indigo-100 p-0.5">
-                                <img
+                                <Image
                                     src="https://api.dicebear.com/7.x/avataaars/svg?seed=Alex"
                                     alt="Author"
                                     className="w-full h-full rounded-full bg-slate-100"
@@ -76,7 +75,7 @@ export default function BlogPost() {
                 {/* Featured Image */}
                 <div className="container mx-auto px-4 max-w-5xl mb-16">
                     <div className="relative aspect-[21/9] rounded-3xl overflow-hidden shadow-2xl ring-1 ring-slate-900/5">
-                        <img
+                        <Image
                             src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2670&auto=format&fit=crop"
                             alt="Data Analytics Dashboard"
                             className="object-cover w-full h-full hover:scale-105 transition-transform duration-700"
@@ -96,12 +95,12 @@ export default function BlogPost() {
                 <div className="container mx-auto px-4 max-w-3xl">
                     <article className="prose prose-lg prose-indigo prose-slate mx-auto">
                         <p className="lead text-xl text-slate-600 leading-relaxed mb-8 font-medium">
-                            We've listened to feedback from over 500 schools. Today, we're thrilling to unveil EduPrime v2.0—rebuilt from the ground up to be faster, smarter, and ready for the future of education management.
+                            We ve listened to feedback from over 500 schools. Today, we re thrilling to unveil EduPrime v2.0—rebuilt from the ground up to be faster, smarter, and ready for the future of education management
                         </p>
 
-                        <h2>What's New in v2.0?</h2>
+                        <h2>What s New in v2.0?</h2>
                         <p>
-                            This update isn't just a facelift. We've introduced three core engines that will fundamentally change how administrators interact with their data.
+                            This update isn t just a facelift. We ve introduced three core engines that will fundamentally change how administrators interact with their data.
                         </p>
 
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 my-10 not-prose">
@@ -126,7 +125,7 @@ export default function BlogPost() {
                         </p>
 
                         <blockquote>
-                            "The predictive model flagged 15 students who were quietly struggling. We intervened, and 12 of them finished the semester with honors." — <strong>Principal Skinner, Springfield High</strong>
+                            The predictive model flagged 15 students who were quietly struggling. We intervened, and 12 of them finished the semester with honors. — <strong>Principal Skinner, Springfield High</strong>
                         </blockquote>
 
                         <h2>Seamless Mobile Experience</h2>

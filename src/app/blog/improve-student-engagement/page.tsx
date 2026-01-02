@@ -8,7 +8,7 @@ import { Button } from '@/components/ui/button';
 import {
     Calendar,
     Clock,
-    User,
+
     ArrowLeft,
     Share2,
     Facebook,
@@ -57,7 +57,7 @@ export default function BlogPost() {
                     <div className="flex items-center justify-between border-y border-slate-100 py-6">
                         <div className="flex items-center gap-4">
                             <div className="w-12 h-12 rounded-full overflow-hidden border-2 border-indigo-100 p-0.5">
-                                <img
+                                <Image
                                     src="https://api.dicebear.com/7.x/avataaars/svg?seed=Felix"
                                     alt="Author"
                                     className="w-full h-full rounded-full bg-slate-100"
@@ -83,7 +83,7 @@ export default function BlogPost() {
                 {/* Featured Image */}
                 <div className="container mx-auto px-4 max-w-5xl mb-16">
                     <div className="relative aspect-[21/9] rounded-3xl overflow-hidden shadow-2xl">
-                        <img
+                        <Image
                             src="https://images.unsplash.com/photo-1509062522246-3755977927d7?q=80&w=2604&auto=format&fit=crop"
                             alt="Students engaged in learning"
                             className="object-cover w-full h-full hover:scale-105 transition-transform duration-700"
@@ -100,7 +100,7 @@ export default function BlogPost() {
 
                         <h2>1. Gamification is Not Just a Buzzword</h2>
                         <p>
-                            Integrating game mechanics into learning—leaderboards, badges, and levels—triggers the brain's reward system. It's not about turning school into a video game, but using the psychology of progress to motivate learners.
+                            Integrating game mechanics into learning—leaderboards, badges, and levels—triggers the brains reward system. Its not about turning school into a video game, but using the psychology of progress to motivate learners.
                         </p>
 
                         <h2>2. The Flipped Classroom Model</h2>
@@ -111,7 +111,7 @@ export default function BlogPost() {
                         <div className="my-12 p-8 bg-indigo-50 rounded-2xl border border-indigo-100">
                             <h3 className="text-indigo-900 mt-0">Key Statistic</h3>
                             <p className="mb-0 text-indigo-700">
-                                "Schools implementing active learning strategies see a <span className="font-bold">23% increase</span> in test scores and a <span className="font-bold">40% reduction</span> in failure rates."
+                                Schools implementing active learning strategies see a <span className="font-bold">23% increase</span> in test scores and a <span className="font-bold">40% reduction</span> in failure rates.
                             </p>
                         </div>
 
@@ -126,7 +126,7 @@ export default function BlogPost() {
                         </p>
 
                         <figure className="my-10">
-                            <img
+                            <Image
                                 src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1740&auto=format&fit=crop"
                                 alt="Collaborative Learning"
                                 className="rounded-xl shadow-lg w-full"
@@ -138,7 +138,7 @@ export default function BlogPost() {
 
                         <h2>5. Social-Emotional Learning (SEL)</h2>
                         <p>
-                            Students can't learn if they don't feel safe. Integrating SEL checks into your daily routine helps build a classroom community that supports academic risk-taking.
+                            Students cant learn if they dont feel safe. Integrating SEL checks into your daily routine helps build a classroom community that supports academic risk-taking.
                         </p>
 
                         <hr className="my-12 border-slate-200" />

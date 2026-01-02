@@ -2,6 +2,7 @@
 import React from 'react';
 import Link from 'next/link';
 import Navbar from '@/components/Navbar';
+import Image from 'next/image';
 import Footer from '@/components/Footer';
 import { Button } from '@/components/ui/button';
 import {
@@ -53,7 +54,7 @@ export default function BlogPost() {
                     <div className="flex items-center justify-between border-y border-slate-100 py-6">
                         <div className="flex items-center gap-4">
                             <div className="w-12 h-12 rounded-full overflow-hidden border-2 border-indigo-100 p-0.5">
-                                <img
+                                <Image
                                     src="https://api.dicebear.com/7.x/avataaars/svg?seed=Sarah"
                                     alt="Author"
                                     className="w-full h-full rounded-full bg-slate-100"
@@ -76,7 +77,7 @@ export default function BlogPost() {
                 {/* Featured Image */}
                 <div className="container mx-auto px-4 max-w-5xl mb-16">
                     <div className="relative aspect-[21/9] rounded-3xl overflow-hidden shadow-2xl">
-                        <img
+                        <Image
                             src="https://images.unsplash.com/photo-1596495578065-6e0763fa1178?q=80&w=2670&auto=format&fit=crop"
                             alt="Children doing robotics"
                             className="object-cover w-full h-full hover:scale-105 transition-transform duration-700"
@@ -88,7 +89,7 @@ export default function BlogPost() {
                 <div className="container mx-auto px-4 max-w-3xl">
                     <article className="prose prose-lg prose-indigo prose-slate mx-auto">
                         <p className="lead text-xl text-slate-600 leading-relaxed mb-8 font-medium">
-                            The acronym has evolved from STEM to STEAM, adding 'Arts' to the mix. But why? Because in the 21st century, technical skill without creative application is incomplete.
+                            The acronym has evolved from STEM to STEAM, adding Arts to the mix. But why? Because in the 21st century, technical skill without creative application is incomplete.
                         </p>
 
                         <h2>The Components of STEAM</h2>
@@ -108,12 +109,12 @@ export default function BlogPost() {
 
                         <h2>Bridging the Gap Between Logic and Creativity</h2>
                         <p>
-                            Engineers rarely work in a vacuum. They design products for <em>people</em>. The 'Arts' component brings design thinking, empathy, and aesthetic principles into the hard sciences, creating more holistic problem solvers.
+                            Engineers rarely work in a vacuum. They design products for <em>people</em>. The Arts component brings design thinking, empathy, and aesthetic principles into the hard sciences, creating more holistic problem solvers.
                         </p>
 
                         <h2>Implementing STEAM in the Classroom</h2>
                         <p>
-                            It starts with cross-disciplinary projects. Don't just teach geometry; adhere it to architectural design. Don't just teach biology; illustrate it.
+                            It starts with cross-disciplinary projects. Dont just teach geometry; adhere it to architectural design. Dont just teach biology; illustrate it.
                         </p>
                         <ul>
                             <li><strong>Elementary:</strong> Use LEGO robotics to tell a story.</li>
@@ -122,12 +123,12 @@ export default function BlogPost() {
                         </ul>
 
                         <div className="my-10 p-6 border-l-4 border-orange-500 bg-orange-50 pl-6 italic text-lg text-slate-700">
-                            "Innovators need to be able to look at a problem from multiple angles. STEAM provides the prism."
+                            Innovators need to be able to look at a problem from multiple angles. STEAM provides the prism.
                         </div>
 
                         <h2>The Job Market Demand</h2>
                         <p>
-                            LinkedIn's annual emerging jobs report consistently lists roles that require a blend of technical capability and creative strategy. UX Design, Data Visualization, and Product Management are all pure STEAM careers.
+                            LinkedIns annual emerging jobs report consistently lists roles that require a blend of technical capability and creative strategy. UX Design, Data Visualization, and Product Management are all pure STEAM careers.
                         </p>
                     </article>
 
@@ -151,7 +152,7 @@ export default function BlogPost() {
                 <div className="container mx-auto px-4 mt-20 max-w-4xl">
                     <div className="bg-gradient-to-br from-indigo-900 to-slate-900 rounded-3xl p-8 md:p-12 text-center text-white shadow-2xl">
                         <h2 className="text-3xl font-bold mb-4">Empower your teachers</h2>
-                        <p className="text-indigo-200 mb-8 max-w-xl mx-auto">Get our free "Complete Steam Classroom Guide" PDF when you sign up.</p>
+                        <p className="text-indigo-200 mb-8 max-w-xl mx-auto">Get our free  Complete Steam Classroom Guide, PDF when you sign up.</p>
                         <div className="flex flex-col sm:flex-row justify-center gap-3 max-w-md mx-auto">
                             <input
                                 type="email"

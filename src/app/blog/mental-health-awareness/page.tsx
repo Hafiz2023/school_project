@@ -2,6 +2,7 @@
 import React from 'react';
 import Link from 'next/link';
 import Navbar from '@/components/Navbar';
+import Image from 'next/image';
 import Footer from '@/components/Footer';
 import { Button } from '@/components/ui/button';
 import {
@@ -52,7 +53,7 @@ export default function BlogPost() {
                     <div className="flex items-center justify-between border-y border-stone-200 py-6">
                         <div className="flex items-center gap-4">
                             <div className="w-12 h-12 rounded-full overflow-hidden border-2 border-teal-100 p-0.5">
-                                <img
+                                <Image
                                     src="https://api.dicebear.com/7.x/avataaars/svg?seed=Emma"
                                     alt="Author"
                                     className="w-full h-full rounded-full bg-slate-100"
@@ -75,7 +76,7 @@ export default function BlogPost() {
                 {/* Featured Image */}
                 <div className="container mx-auto px-4 max-w-5xl mb-16">
                     <div className="relative aspect-[21/9] rounded-3xl overflow-hidden shadow-xl">
-                        <img
+                        <Image
                             src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?q=80&w=2031&auto=format&fit=crop"
                             alt="Peaceful nature setting"
                             className="object-cover w-full h-full hover:scale-105 transition-transform duration-1000"
@@ -90,12 +91,12 @@ export default function BlogPost() {
                 <div className="container mx-auto px-4 max-w-3xl">
                     <article className="prose prose-lg prose-teal prose-stone mx-auto">
                         <p className="lead text-xl text-stone-600 leading-relaxed mb-8 font-medium">
-                            Academic pressure, social anxiety, and the lingering effects of global events have created a mental health crisis in schools. Prioritizing wellness isn't "extra"—it's essential for learning.
+                            Academic pressure, social anxiety, and the lingering effects of global events have created a mental health crisis in schools. Prioritizing wellness isnt extra its essential for learning.
                         </p>
 
                         <h2>The Silent Struggle</h2>
                         <p>
-                            Often, the quietest students are the ones struggling the most. It's crucial for educators to recognize the signs of burnout and anxiety, which can manifest as irritability, withdrawal, or a sudden drop in grades.
+                            Often, the quietest students are the ones struggling the most. Its crucial for educators to recognize the signs of burnout and anxiety, which can manifest as irritability, withdrawal, or a sudden drop in grades.
                         </p>
 
                         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 my-10 not-prose">
@@ -123,13 +124,13 @@ export default function BlogPost() {
 
                         <h2>Practical Strategies for Teachers</h2>
                         <ul>
-                            <li><strong>"No Homework" Weekends:</strong> Give students time to recharge fully.</li>
+                            <li><strong>No Homework Weekends:</strong> Give students time to recharge fully.</li>
                             <li><strong>Mindfulness Minutes:</strong> Start class with 60 seconds of deep breathing.</li>
                             <li><strong>Flexible Deadlines:</strong> Allow grace periods for students going through personal crises.</li>
                         </ul>
 
                         <blockquote className="border-l-4 border-teal-500 pl-4 italic my-8 text-stone-600 bg-white p-6 rounded-r-xl shadow-sm">
-                            "We cannot teach the head if the heart is broken. Schools must be sanctuaries first, and centers of learning second."
+                            We cannot teach the head if the heart is broken. Schools must be sanctuaries first, and centers of learning second.
                         </blockquote>
 
                         <h2>The Role of Technology</h2>

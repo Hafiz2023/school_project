@@ -108,7 +108,7 @@ export default function SettingsPage() {
                     <Card>
                         <CardHeader>
                             <CardTitle>School Information</CardTitle>
-                            <CardDescription>Manage your institution's public details.</CardDescription>
+                            <CardDescription>Manage your institutions public details.</CardDescription>
                         </CardHeader>
                         <CardContent className="space-y-4">
                             <div className="grid gap-2">

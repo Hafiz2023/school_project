@@ -2,6 +2,7 @@
 import React from 'react';
 import Link from 'next/link';
 import Navbar from '@/components/Navbar';
+import Image from 'next/image';
 import Footer from '@/components/Footer';
 import { Button } from '@/components/ui/button';
 import {
@@ -52,7 +53,7 @@ export default function BlogPost() {
                     <div className="flex items-center justify-between border-y border-slate-200 py-6">
                         <div className="flex items-center gap-4">
                             <div className="w-12 h-12 rounded-full overflow-hidden border-2 border-indigo-100 p-0.5">
-                                <img
+                                <Image
                                     src="https://api.dicebear.com/7.x/avataaars/svg?seed=Marcus"
                                     alt="Author"
                                     className="w-full h-full rounded-full bg-slate-100"
@@ -74,7 +75,7 @@ export default function BlogPost() {
                 {/* Featured Image */}
                 <div className="container mx-auto px-4 max-w-5xl mb-16">
                     <div className="relative aspect-[21/9] rounded-3xl overflow-hidden shadow-2xl border-4 border-white">
-                        <img
+                        <Image
                             src="https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?q=80&w=2670&auto=format&fit=crop"
                             alt="Cybersecurity Code"
                             className="object-cover w-full h-full"
@@ -95,7 +96,7 @@ export default function BlogPost() {
                 <div className="container mx-auto px-4 max-w-3xl">
                     <article className="prose prose-lg prose-red prose-slate mx-auto">
                         <p className="lead text-xl text-slate-600 leading-relaxed mb-8 font-medium">
-                            Schools hold vast amounts of sensitive data—from minor students' identities to staff financial records. This makes them a prime target for ransomware attacks.
+                            Schools hold vast amounts of sensitive data—from minor students identities to staff financial records. This makes them a prime target for ransomware attacks.
                         </p>
 
                         <h2>The Vulnerability Gap</h2>
@@ -109,7 +110,7 @@ export default function BlogPost() {
                                 <div className="bg-red-100 p-2 rounded-lg text-red-600 mt-1"><Key size={20} /></div>
                                 <div>
                                     <strong className="block text-slate-900 text-lg">Weak Password Policies</strong>
-                                    <span className="text-slate-600">Many schools still use "SchoolName123" as default passwords. This is the easiest entry point for attackers.</span>
+                                    <span className="text-slate-600">Many schools still use SchoolName123 as default passwords. This is the easiest entry point for attackers.</span>
                                 </div>
                             </li>
                             <li className="flex gap-4 items-start p-4 bg-white rounded-xl shadow-sm border border-slate-100">

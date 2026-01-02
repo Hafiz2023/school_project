@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server';
 
-let invoices = [
+const invoices = [
     { id: 'INV-001', student: 'Alina Khan', amount: '$1,200', date: 'Oct 01, 2024', status: 'Paid', method: 'Credit Card' },
     { id: 'INV-002', student: 'Bilal Ahmed', amount: '$1,200', date: 'Oct 05, 2024', status: 'Pending', method: 'Bank Transfer' },
     { id: 'INV-003', student: 'Zara Malik', amount: '$1,500', date: 'Oct 10, 2024', status: 'Overdue', method: 'Cash' },
