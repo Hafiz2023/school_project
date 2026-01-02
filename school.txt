@@ -1,0 +1,59 @@
+# ✅ Smart School Management System
+# Backend: FastAPI + SQLite
+
+# 📁 Folder Structure Plan:
+# smart-school/
+# ├── backend/
+# │   ├── main.py
+# │   ├── database.py
+# │   ├── models/
+# │   │   ├── user.py
+# │   │   ├── student.py
+# │   │   ├── teacher.py
+# │   │   ├── class_model.py
+# │   │   ├── attendance.py
+# │   │   ├── result.py
+# │   │   ├── fee.py
+# │   │   └── timetable.py
+# │   ├── routes/
+# │   │   ├── auth.py
+# │   │   ├── students.py
+# │   │   ├── teachers.py
+# │   │   ├── classes.py
+# │   │   ├── attendance.py
+# │   │   ├── results.py
+# │   │   ├── fees.py
+# │   │   └── timetable.py
+# │   ├── schemas/
+# │   │   └── (same names as models)
+# │   ├── utils/
+# │   │   ├── auth.py
+# │   │   └── helpers.py
+# │   ├── middlewares/
+# │   └── .env
+# │   └── requirements.txt
+# └── frontend/
+#     ├── pages/
+#     │   ├── index.tsx (Login)
+#     │   ├── dashboard.tsx
+#     │   ├── students.tsx
+#     │   ├── teachers.tsx
+#     │   ├── classes.tsx
+#     │   ├── attendance.tsx
+#     │   ├── results.tsx
+#     │   ├── fees.tsx
+#     │   └── timetable.tsx
+#     ├── components/
+#     ├── context/
+#     ├── services/api.ts
+#     ├── utils/
+#     └── styles/
+
+# ✅ Next Steps:
+# - Create backend folder and add SQLite integration in `database.py`
+# - Create reusable Pydantic schemas and database models
+# - Build router modules and include them in main.py using `app.include_router()`
+
+# 🔐 Authentication and role-based guards already exist in main.py
+
+# 🛠 Let me know if you'd like the actual folder scaffolding and file contents (backend) generated next.
