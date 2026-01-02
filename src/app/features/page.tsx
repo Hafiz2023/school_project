@@ -1,12 +1,12 @@
 'use client';
 import React from 'react';
-import Link from 'next/link';
+
 import Image from 'next/image';
 import Footer from '@/components/Footer';
 import Navbar from '@/components/Navbar';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
-import { CheckCircle2, Zap, School, Shield, Users, Globe, BarChart3, Smartphone } from 'lucide-react';
+import { CheckCircle2, Zap, Users, Globe, BarChart3, Smartphone } from 'lucide-react';
 
 export default function FeaturesPage() {
     const featuresList = [
@@ -52,7 +52,7 @@ export default function FeaturesPage() {
                         One Platform. <br /> <span className="text-indigo-600">Infinite Possibilities.</span>
                     </h1>
                     <p className="text-xl text-slate-600 max-w-2xl mx-auto">
-                        Discover the modules that make EduPrime the world's most preferred school operating system.
+                        Discover the modules that make EduPrime the worlds most preferred school operating system.
                     </p>
                 </div>
             </section>

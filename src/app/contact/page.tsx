@@ -1,4 +1,4 @@
-import Link from 'next/link';
+
 import Footer from '@/components/Footer';
 import Navbar from '@/components/Navbar';
 import { Button } from '@/components/ui/button';
@@ -16,7 +16,7 @@ export default function ContactPage() {
                         <div className="bg-slate-900 p-10 text-white md:w-2/5 flex flex-col justify-between">
                             <div>
                                 <h1 className="text-3xl font-bold mb-4">Contact Us</h1>
-                                <p className="text-slate-400 mb-8">Have questions? We'd love to hear from you.</p>
+                                <p className="text-slate-400 mb-8">Have questions? We d love to hear from you.</p>
 
                                 <div className="space-y-6">
                                     <div className="flex items-center gap-4">

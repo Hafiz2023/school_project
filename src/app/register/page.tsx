@@ -7,7 +7,7 @@ import { Input } from '@/components/ui/input';
 import { Card, CardContent, CardHeader, CardTitle, CardDescription, CardFooter } from '@/components/ui/card';
 import { Lock, Mail, User, Loader2, ArrowLeft } from 'lucide-react';
 import Link from 'next/link';
-import { cn } from '@/lib/utils'; // Assuming you have a utils file, if not I will just use string concatenation but it's likely present in a shadcn setup.
+ // Assuming you have a utils file, if not I will just use string concatenation but it's likely present in a shadcn setup.
 
 export default function RegisterPage() {
     const router = useRouter();
@@ -50,6 +50,7 @@ export default function RegisterPage() {
             } else {
                 setError(data.message || 'Registration failed');
             }
+        // eslint-disable-next-line @typescript-eslint/no-unused-vars
         } catch (err) {
             setError('Something went wrong. Please try again.');
         } finally {

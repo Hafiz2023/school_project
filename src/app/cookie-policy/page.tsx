@@ -2,7 +2,7 @@
 import React from 'react';
 import Link from 'next/link';
 import Footer from '@/components/Footer';
-import { Button } from '@/components/ui/button';
+
 import { ArrowLeft, ShieldCheck } from 'lucide-react';
 
 export default function LegalPage() {

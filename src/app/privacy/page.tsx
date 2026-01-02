@@ -1,9 +1,9 @@
 'use client';
 import React from 'react';
-import Link from 'next/link';
+
 import Footer from '@/components/Footer';
 import Navbar from '@/components/Navbar';
-import { Button } from '@/components/ui/button';
+
 import { Shield, Lock, Globe } from 'lucide-react';
 import { Badge } from '@/components/ui/badge';
 
@@ -38,10 +38,10 @@ export default function PrivacyPage() {
                             </div>
                             <div className="prose prose-slate max-w-none text-slate-600 leading-relaxed">
                                 <p>
-                                    At EduPrime, we treat student data with the highest level of confidentiality and security. We comply with major educational privacy laws including <strong>FERPA</strong> (Family Educational Rights and Privacy Act) and <strong>COPPA</strong> (Children's Online Privacy Protection Act).
+                                    At EduPrime, we treat student data with the highest level of confidentiality and security. We comply with major educational privacy laws including <strong>FERPA</strong> (Family Educational Rights and Privacy Act) and <strong>COPPA</strong> (Childrens Online Privacy Protection Act).
                                 </p>
                                 <p className="mt-4">
-                                    We pledge that we will never sell student data to third parties for advertising purposes. Student data is used solely for educational purposes and improving our platform's functionality.
+                                    We pledge that we will never sell student data to third parties for advertising purposes. Student data is used solely for educational purposes and improving our platforms functionality.
                                 </p>
                             </div>
                         </section>

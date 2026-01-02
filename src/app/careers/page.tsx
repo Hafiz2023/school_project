@@ -74,7 +74,7 @@ export default function CareersPage() {
                 <div className="absolute bottom-0 left-0 w-[600px] h-[600px] bg-violet-50/50 rounded-full blur-3xl -z-10 translate-y-1/2 -translate-x-1/4"></div>
 
                 <div className="container mx-auto px-4 text-center max-w-4xl relative z-10">
-                    <Badge className="mb-6 bg-indigo-100 text-indigo-700 hover:bg-indigo-100 px-4 py-1.5 text-sm uppercase tracking-wide">We're Hiring!</Badge>
+                    <Badge className="mb-6 bg-indigo-100 text-indigo-700 hover:bg-indigo-100 px-4 py-1.5 text-sm uppercase tracking-wide">We re Hiring!</Badge>
                     <h1 className="text-5xl md:text-7xl font-extrabold text-slate-900 mb-8 tracking-tight leading-tight">
                         Build the Future of <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 to-violet-600">Education</span>
                     </h1>
@@ -111,7 +111,7 @@ export default function CareersPage() {
                                     Our culture is built on <strong className="text-slate-900">transparency</strong>, <strong className="text-slate-900">autonomy</strong>, and <strong className="text-slate-900">continuous learning</strong>.
                                 </p>
                                 <p>
-                                    Whether it's our annual company retreat, weekly "Show & Tell" sessions, or
+                                    Whether its our annual company retreat, weekly Show & Tell sessions, or
                                     collaborative hackathons, we find ways to connect and grow together.
                                 </p>
                                 <div className="pt-4">
@@ -238,8 +238,8 @@ export default function CareersPage() {
                     </div>
 
                     <div className="mt-20 text-center bg-slate-50 rounded-3xl p-12 border border-slate-100">
-                        <h3 className="text-2xl font-bold text-slate-900 mb-4">Don't see a role that fits?</h3>
-                        <p className="text-slate-600 mb-8 max-w-lg mx-auto">We are always looking for talented individuals to join our team. Send us your resume and we'll keep you in mind for future openings.</p>
+                        <h3 className="text-2xl font-bold text-slate-900 mb-4">Dont see a role that fits?</h3>
+                        <p className="text-slate-600 mb-8 max-w-lg mx-auto">We are always looking for talented individuals to join our team. Send us your resume and we all keep you in mind for future openings.</p>
                         <Button variant="outline" size="lg" className="rounded-full bg-white hover:bg-slate-50 border-slate-300">Email us your resume</Button>
                     </div>
                 </div>

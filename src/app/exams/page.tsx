@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 import Header from '@/components/Header';
 import StatsCard from '@/components/StatsCard';
 import StatusBadge from '@/components/StatusBadge';
-import { ClipboardList, Calendar, CheckCircle, Download, Plus, FileText, Search } from 'lucide-react';
+import { Calendar, CheckCircle, Download, Plus, FileText, Search } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
 import { Input } from '@/components/ui/input';
@@ -23,7 +23,7 @@ import {
     DialogTitle,
     DialogTrigger,
     DialogFooter,
-    DialogClose
+
 } from "@/components/ui/dialog";
 
 interface Exam {
@@ -48,7 +48,7 @@ interface Result {
 export default function ExamsPage() {
     const [exams, setExams] = useState<Exam[]>([]);
     const [results, setResults] = useState<Result[]>([]);
-    const [loading, setLoading] = useState(true);
+    const [, setLoading] = useState(true);
     const [openExamDialog, setOpenExamDialog] = useState(false);
 
     // New Exam State

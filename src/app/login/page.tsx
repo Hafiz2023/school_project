@@ -37,6 +37,7 @@ export default function LoginPage() {
             } else {
                 setError(data.message || 'Invalid credentials');
             }
+        // eslint-disable-next-line @typescript-eslint/no-unused-vars
         } catch (err) {
             setError('Something went wrong. Please try again.');
         } finally {
@@ -118,7 +119,7 @@ export default function LoginPage() {
                 </CardContent>
                 <CardFooter className="text-center pb-8 pt-0">
                     <div className="text-sm text-slate-500 w-full">
-                        Don't have an account? <Link href="/register" className="text-indigo-600 hover:text-indigo-500 font-medium">Register</Link>
+                        Dont have an account? <Link href="/register" className="text-indigo-600 hover:text-indigo-500 font-medium">Register</Link>
                     </div>
                 </CardFooter>
             </Card>

@@ -3,9 +3,9 @@ import React, { useState, useEffect } from 'react';
 import Header from '@/components/Header';
 import StatsCard from '@/components/StatsCard';
 import StatusBadge from '@/components/StatusBadge';
-import { Banknote, Users, Clock, CheckCircle, Plus, DollarSign, Trash2, Edit, Filter } from 'lucide-react';
+import {  Clock, CheckCircle, Plus, DollarSign, Trash2, Edit, } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
+import { Card, CardContent,  } from '@/components/ui/card';
 import { Input } from '@/components/ui/input';
 import {
     Table,
@@ -22,7 +22,7 @@ import {
     DialogTitle,
     DialogTrigger,
     DialogFooter,
-    DialogClose,
+
     DialogDescription
 } from "@/components/ui/dialog";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
