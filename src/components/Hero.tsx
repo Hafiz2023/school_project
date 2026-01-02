@@ -1,6 +1,7 @@
 'use client';
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { ArrowRight, PlayCircle, Star, CreditCard } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
@@ -50,8 +51,14 @@ export default function Hero() {
                         <div className="flex items-center gap-6 pt-4 text-sm font-medium text-slate-500">
                             <div className="flex -space-x-3">
                                 {[1, 2, 3, 4].map(i => (
-                                    <div key={i} className="w-10 h-10 rounded-full border-2 border-white bg-slate-200 flex items-center justify-center text-xs overflow-hidden">
-                                        <img src={`https://api.dicebear.com/7.x/avataaars/svg?seed=${i}`} alt="Avatar" />
+                                    <div key={i} className="w-10 h-10 rounded-full border-2 border-white bg-slate-200 flex items-center justify-center text-xs overflow-hidden relative">
+                                        <Image
+                                            src={`https://api.dicebear.com/7.x/avataaars/svg?seed=${i}`}
+                                            alt="Avatar"
+                                            fill
+                                            className="object-cover"
+                                            unoptimized
+                                        />
                                     </div>
                                 ))}
                                 <div className="w-10 h-10 rounded-full border-2 border-white bg-indigo-50 text-indigo-600 flex items-center justify-center text-xs font-bold ring-1 ring-indigo-100">
@@ -74,10 +81,12 @@ export default function Hero() {
 
                         {/* Main Image Container with 3D Float Effect */}
                         <div className="relative w-full aspect-[4/3] rounded-3xl overflow-hidden shadow-2xl shadow-indigo-900/10 border-4 border-white transform hover:scale-[1.02] hover:rotate-1 transition-all duration-700 ease-out z-10 group">
-                            <img
+                            <Image
                                 src="https://images.unsplash.com/photo-1531545514256-b1400bc00f31?q=80&w=1974&auto=format&fit=crop"
                                 alt="School Administrator Dashboard"
-                                className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                                fill
+                                className="object-cover transition-transform duration-700 group-hover:scale-105"
+                                unoptimized
                             />
 
                             {/* Overlay Gradient */}

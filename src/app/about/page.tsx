@@ -7,7 +7,7 @@ import Navbar from '@/components/Navbar';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { Card, CardContent } from '@/components/ui/card';
-import { School, CheckCircle2, Globe, Users, Award, Heart, ArrowRight } from 'lucide-react';
+import { Users, Award, Heart, ArrowRight } from 'lucide-react';
 
 export default function AboutPage() {
     return (

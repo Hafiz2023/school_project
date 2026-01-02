@@ -2,31 +2,15 @@
 import React from 'react';
 import Link from 'next/link';
 import Footer from '@/components/Footer';
+import Navbar from '@/components/Navbar';
 import { Button } from '@/components/ui/button';
-import { School, CheckCircle, AlertCircle, FileText } from 'lucide-react';
+import { AlertCircle, FileText } from 'lucide-react';
 import { Badge } from '@/components/ui/badge';
 
 export default function TermsPage() {
     return (
         <div className="min-h-screen bg-slate-50 font-sans text-slate-900 selection:bg-indigo-100 selection:text-indigo-900">
-            {/* Navbar */}
-            <nav className="fixed w-full z-50 top-0 left-0 bg-white/80 backdrop-blur-md border-b border-slate-200 transition-all">
-                <div className="container mx-auto px-4 h-20 flex items-center justify-between">
-                    <Link href="/" className="flex items-center gap-2 group">
-                        <div className="bg-indigo-600 text-white p-2 rounded-lg shadow-lg group-hover:scale-105 transition-transform">
-                            <School size={24} />
-                        </div>
-                        <span className="text-xl font-bold text-slate-900">EduPrime</span>
-                    </Link>
-                    <div className="flex gap-4">
-                        <Link href="/contact">
-                            <Button className="rounded-full bg-slate-900 hover:bg-slate-800 text-white px-6 shadow-md">
-                                Contact Legal
-                            </Button>
-                        </Link>
-                    </div>
-                </div>
-            </nav>
+            <Navbar />
 
             <main className="pt-32 pb-20">
                 <div className="container mx-auto px-4 max-w-4xl">
